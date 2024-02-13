@@ -1,0 +1,28 @@
+2024-02-13 01:28:52.284 [info] Log level: Info
+2024-02-13 01:28:52.284 [info] Validating found git in: "git"
+2024-02-13 01:28:52.284 [info] Using git "2.34.1" from "git"
+2024-02-13 01:28:52.284 [info] > git rev-parse --show-toplevel [6ms]
+2024-02-13 01:28:52.284 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-02-13 01:28:52.284 [info] > git rev-parse --show-toplevel [1ms]
+2024-02-13 01:28:52.284 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-02-13 01:28:52.284 [info] > git rev-parse --show-toplevel [4ms]
+2024-02-13 01:28:52.284 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-02-13 01:28:52.284 [info] > git rev-parse --show-toplevel [13ms]
+2024-02-13 01:28:52.284 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-02-13 01:28:52.284 [info] > git rev-parse --show-toplevel [2ms]
+2024-02-13 01:28:52.284 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-02-13 01:54:37.829 [info] > git rev-parse --show-toplevel [12ms]
+2024-02-13 01:54:37.853 [info] > git rev-parse --git-dir --git-common-dir [4ms]
+2024-02-13 01:54:37.922 [info] Open repository: /home/ruben
+2024-02-13 01:54:37.957 [info] > git config --get commit.template [7ms]
+2024-02-13 01:54:37.975 [info] No remotes found in the git config file.
+2024-02-13 01:54:37.978 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [6ms]
+2024-02-13 01:54:37.979 [warning] No such branch: master.
+2024-02-13 01:54:38.297 [info] > git show --textconv :web.html [18ms]
+2024-02-13 01:54:38.304 [info] > git ls-files --stage -- /home/ruben/web.html [12ms]
+2024-02-13 01:54:38.528 [info] > git check-ignore -v -z --stdin [4ms]
+2024-02-13 01:54:38.750 [info] > git status -z -uall [756ms] (cancelled)
+2024-02-13 01:56:53.638 [info] > git check-ignore -v -z --stdin [2ms]
+2024-02-13 02:04:50.702 [info] > git ls-files --stage -- /home/ruben/web.html [5ms]
+2024-02-13 02:04:50.723 [info] > git cat-file -s 2f2083951820252bb3d0412c17843539f957a37f [3ms]
+2024-02-13 02:04:50.754 [info] > git show --textconv :web.html [6ms]
